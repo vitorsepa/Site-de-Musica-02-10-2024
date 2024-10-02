@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .painel-lateral-esquerdo {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .painel-lateral-esquerdo .logo {
+    margin-bottom: 20px;
+  }
+  
+  .painel-lateral-esquerdo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .painel-lateral-esquerdo li {
+    margin-bottom: 10px;
+  }
+  
+  .painel-lateral-esquerdo a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .painel-lateral-esquerdo .informacoes-adicionais {
+    margin-top: 20px;
+  }
+  
+  .painel-principal {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  .painel-principal h2 {
+    margin-top: 0;
+  }
+  
+  .lista-recomendacoes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista-recomendacoes li {
+    margin-bottom: 20px;
+  }
+  
+  .lista-recomendacoes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .lista-recomendacoes h3 {
+    margin-top: 0;
+  }
+  
+  .lista-recomendacoes p {
+    margin-bottom: 10px;
+  }
+  
+  .botao-opcoes {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .botao-opcoes:hover {
+    background-color: #444;
+  }
+  
+  .painel-lateral-direito {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .painel-lateral-direito h2 {
+    margin-top: 0;
+  }
+  
+  .player-de-musica {
+    margin-top: 20px;
+  }
+  
+  .player-de-musica img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .player-de-musica h3 {
+    margin-top: 0;
+  }
+  
+  .player-de-musica p {
+    margin-bottom: 10px;
+  }
+  
+  .barra-de-progresso {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .progresso {
+    width: 50%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  .controles-de-reproducao {
+    margin-top: 20px;
+  }
+  
+  .botao-anterior, .botao-reproduzir-pausar, .botao-proximo {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .botao-anterior:hover, .botao-reproduzir-pausar:hover, .botao-proximo:hover {
+    background-color: #444;
+  }
