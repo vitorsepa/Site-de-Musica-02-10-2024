@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+	<link rel="icon" href="imagens/logo.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+    <button onclick="window.location.href='perfil.html'" class="top-left-icon">
+        <img alt="User profile" src="imagens/nouser.png" width="50" height="50"/>
+    </button>
+
+    <img class="logodosite" src="imagens/logo.png">
+
+    <header class="header">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Procure suas músicas"/>
+        </div>
+        <div class="icons">
+            <button><i class="fas fa-home"></i></button>
+            <button><i class="fas fa-heart"></i></button>
+            <button><i class="fas fa-bell"></i></button>
+            <button><i class="fas fa-users"></i></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h6>Biblioteca</h6>
+            <div class="menu">
+                <p>Você ainda não possui uma playlist!</p>
+                <button class="sidebarbotao">Criar playlist</button>
+                <p>Gostaria de cadastrar uma música?</p>
+                <button class="sidebarbotao" onclick="window.location.href='cadastrodemusica.html'">Cadastre agora!</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <h2>Para você conhecer</h2>
+            <ul class="song-list">
+                <li>
+                    <div class="song-info">
+                        <img alt="Post Malone - Wow" src="imagens/Wow_-_Post_Malone.png" width="40" height="40"/>
+                        <span><a href="https://www.youtube.com/watch?v=NA4uIFbVCPM">Post Malone - Wow</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <img alt="Anne Marie e Marshmello - Friends" src="imagens/marshmello.png" width="40" height="40"/>
+                        <span><a href="https://www.youtube.com/watch?v=CY8E6N5Nzec">Anne Marie e Marshmello - Friends</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <img alt="Raça negra - Cheia de manias" src="imagens/Captura de tela 2024-10-04 092607.png" width="40" height="40"/>
+                        <span><a href="https://www.youtube.com/watch?v=cOchidcyv9Q">Raça negra - Cheia de manias</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <img alt="Dua Lipa - Levitating" src="imagens/dua lipa.jpg" width="40" height="40"/>
+                        <span><a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">Dua Lipa - Levitating</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <img alt="Dove Cameron - Boyfriend" src="imagens/dove.jpg" width="40" height="40"/>
+                        <span><a href="https://www.youtube.com/watch?v=SOn3_0Oav0k">Dove Cameron - Boyfriend</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <img alt="Lady Gaga, Bruno Mars - die with" src="imagens/gaga.png" width="40" height="40"/>
+                        <span><a href="https://youtu.be/kPa7bsKwL-c?feature=shared">Lady Gaga, Bruno Mars - die with</a></span>
+                    </div>
+                    <div class="song-options"><i class="fas fa-ellipsis-h"></i></div>
+                </li>
+            </ul>
+        </main>
+
+        <div class="now-playing">
+            <h2>Tocando agora</h2>
+            <img alt="Cheia de manias" src="imagens/Captura de tela 2024-10-04 092607.png" width="200" height="200"/>
+            <div class="song-details">
+                <h3>Cheia de manias</h3>
+                <p>RAÇA NEGRA</p>
+            </div>
+            <div class="controls">
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-play"></i>
+                <i class="fas fa-forward"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <strong><p>feito por Vítor C, Vicenzo P, João P e Kauã B</p></strong>
+    </footer>
+</body>
+</html>
